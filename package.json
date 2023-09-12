@@ -8,9 +8,9 @@
   "module": "dist/index.js",
   "files": [
     "dist",
-    "lib",
+    "src/lib",
     "README.md",
-    "Modal.js"
+    "src/lib/Modal.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
