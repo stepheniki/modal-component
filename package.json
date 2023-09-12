@@ -1,0 +1,27 @@
+{
+  "name": "npm-modal-component-utility",
+  "version": "3.0.1",
+  "author": "Stephen Thomas",
+  "description": "Modal to show a validation message, with a dark background for a better visibility",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "components",
+    "README.md",
+    "Modal.jsx"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src/lib --out-dir dist --copy-files"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.17",
+    "@babel/preset-env": "^7.22.15",
+    "@babel/preset-react": "^7.22.15"
+  }
+}
