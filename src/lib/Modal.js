@@ -8,8 +8,7 @@ export function Modal({ isOpen, content, onClose }) {
 
   return (
     <div className="modal-background" onClick={onClose}>
-      {/* Contenu de la modal */}
-      <div className="modal-content">
+           <div className="modal-content">
         <h2>{content}</h2>
         <button onClick={onClose}>Close</button>
       </div>
