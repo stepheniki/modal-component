@@ -1,6 +1,6 @@
 {
   "name": "npm-modal-component-utility",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "author": "Stephen Thomas",
   "description": "Modal to show a validation message, with a dark background for a better visibility",
   "private": false,
@@ -8,9 +8,9 @@
   "module": "dist/index.js",
   "files": [
     "dist",
-    "components",
+    "lib",
     "README.md",
-    "Modal.jsx"
+    "Modal.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

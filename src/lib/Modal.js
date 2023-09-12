@@ -1,5 +1,5 @@
 import React from 'react';
-import './lib/Modal.css';
+import './components/Modal.css';
 
 export function Modal({ isOpen, content, onClose }) {
   if (!isOpen) {
@@ -15,4 +15,4 @@ export function Modal({ isOpen, content, onClose }) {
       </div>
     </div>
   );
-}
+};
